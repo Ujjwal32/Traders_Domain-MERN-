@@ -1,7 +1,9 @@
+
+
 const mongoose = require('mongoose');
 try {
     (async ()=>{
-        await mongoose.connect('mongodb+srv://Admin:admin@cluster0.pwyqm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+        await mongoose.connect(process.env.MONGOURI, { useNewUrlParser: true, useUnifiedTopology: true });
         
     })();
 }catch(err){
