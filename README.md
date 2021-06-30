@@ -6,3 +6,6 @@ Admin can add and delete the articles posted. Articles are presented based in th
 Screenshot:
 
 ![Snapshot of the app](screenshot/home.jpg)
+
+
+Link to website: https://mern-traders-domain.herokuapp.com/
